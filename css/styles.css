@@ -1,0 +1,137 @@
+/* For the sake of readness, group the classes, and order the classes and attributes alphabetically */
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  /* 100% = 16px = 1em, so for 562.5% (5.625em) equals 90px. Doing so makes the font size dynamic sizing according to the browser's default font size setting. */
+  /* Using percentage or em inherits the parents sizing (in percentage or em). To avoid this issue, better to use `rem` instead */
+  font-size: 5.625rem;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+.avatar {
+  height: 150px;
+  margin-top: 100px;
+  width: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-description {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.middle-container {
+  margin-bottom: 60px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skill-image {
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.top-cloud {
+  /* To make the absolute position work. The parent has to be relative positioning. */
+  /* Absolute positioning sets the value relative to the parent divs */
+  position: absolute;
+  right: 350px;
+  top: 20px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 50px;
+  /* Relative positioning sets the value relative to the position it would've been. */
+  position: relative;
+}
